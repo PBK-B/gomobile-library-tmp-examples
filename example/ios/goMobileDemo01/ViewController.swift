@@ -15,7 +15,13 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         
         let su = SupportNewSupport()
-        su!.echo()
+        su?.echo()
+        
+        let ob = SwiftSupportObserve()
+        su?.setObserve(ob)
+        
+        su?.call("bin")
+        
     }
 
 }

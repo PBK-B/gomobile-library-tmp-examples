@@ -15,6 +15,7 @@
 		34B2769C2887C64C005BE02D /* GoMobileDemoApp.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34B2769B2887C64C005BE02D /* GoMobileDemoApp.xcframework */; };
 		34B276A02887C832005BE02D /* GoMobileDemoApp.xcframework in Headers */ = {isa = PBXBuildFile; fileRef = 34B2769B2887C64C005BE02D /* GoMobileDemoApp.xcframework */; settings = {ATTRIBUTES = (Public, ); }; };
 		34B276A42887CABF005BE02D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B276A32887CABF005BE02D /* ViewController.swift */; };
+		34B276A62887D628005BE02D /* SwiftSupportObserve.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B276A52887D628005BE02D /* SwiftSupportObserve.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		34B276942887AFEC005BE02D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		34B2769B2887C64C005BE02D /* GoMobileDemoApp.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = GoMobileDemoApp.xcframework; path = frameworks/GoMobileDemoApp.xcframework; sourceTree = SOURCE_ROOT; };
 		34B276A32887CABF005BE02D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		34B276A52887D628005BE02D /* SwiftSupportObserve.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftSupportObserve.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				34B276912887AFEC005BE02D /* LaunchScreen.storyboard */,
 				34B276942887AFEC005BE02D /* Info.plist */,
 				34B276A32887CABF005BE02D /* ViewController.swift */,
+				34B276A52887D628005BE02D /* SwiftSupportObserve.swift */,
 			);
 			path = goMobileDemo01;
 			sourceTree = "<group>";
@@ -163,6 +166,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34B276A62887D628005BE02D /* SwiftSupportObserve.swift in Sources */,
 				34B276A42887CABF005BE02D /* ViewController.swift in Sources */,
 				34B276872887AFEA005BE02D /* AppDelegate.swift in Sources */,
 				34B276892887AFEB005BE02D /* SceneDelegate.swift in Sources */,
